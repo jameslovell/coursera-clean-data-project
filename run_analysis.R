@@ -67,6 +67,6 @@ targetData <- subsetData(mergedData, colHeaders)
 newData <- setActivities(mergedData, getActivities())
 
 # Create a second, independent tidy data set with the average of each variable for each activity and each subject.
-write.csv(makeTidyData(targetData), "tidyData.csv")
+write.csv(makeTidyData(newData), "tidyData.csv")
 
 
